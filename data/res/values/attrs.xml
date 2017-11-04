@@ -807,7 +807,7 @@ i
         <!-- Reference to a style for the Action Bar -->
         <attr name="actionBarStyle" format="reference" />
 		<!--add by liuweiquan actionbar 20160802 start-->
-		<attr name="prizeActiobBarStyle" format="reference" />
+		<attr name="prizeActionBarStyle" format="reference" />
 		<!--add by liuweiquan actionbar 20160802 end-->
         <!-- Reference to a style for the split Action Bar. This style
              controls the split component that holds the menu/action
@@ -8168,6 +8168,15 @@ i
         <attr name="entries" />
         <attr name="entryValues" />
     </declare-styleable>
+  <!-- add for status bar inverse style. prize-linkh-20150903  -->
+    <declare-styleable name="StatusBarStylable">
+        <attr name="statusBarInverse">
+            <!-- Note: Modifying or adding item must keep syncing with the constants of StatusBarManager -->
+            <enum name="white" value="0" />
+            <enum name="gray" value="1" />     
+        </attr>
+        <attr name="autoInverse" format="boolean" />
+    </declare-styleable>    
 
     <!-- Used to describe the gradient for fill or stroke in a path of VectorDrawable. -->
     <declare-styleable name="GradientColor">
