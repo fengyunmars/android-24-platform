@@ -2312,7 +2312,10 @@
 
     <!-- Menu item displayed at the end of a menu to allow users to see another page worth of menu items. This is shown on any app's menu as long as the app has too many items in the menu.-->
     <string name="more_item_label">More</string>
-    <!-- Prepended to the shortcut for a menu item to indicate that the user should hold the MENU button together with the shortcut to invoke the item. For example, if the shortcut to open a new tab in browser is MENU and B together, then this would be prepended to the letter "B" -->
+    <!-- Prepended  预先考虑 to the shortcut for a menu item to indicate that
+    the user should hold the MENU button together with the shortcut to invoke the item.
+    For example, if the shortcut to open a new tab in browser is MENU and B together,
+    then this would be prepended to the letter "B" -->
     <string name="prepend_shortcut_label">Menu+</string>
     <!-- Displayed in place of the regular shortcut letter when a menu item has Menu+space for the shortcut. -->
     <string name="menu_space_shortcut_label">space</string>
