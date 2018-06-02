@@ -17,5 +17,4 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
         android:color="?attr/colorControlHighlight">
     <item android:drawable="@drawable/btn_default_mtrl_shape" />
-    <!-- fengyun modified  <item android:drawable="@android:drawable/blue" />-->
 </ripple>

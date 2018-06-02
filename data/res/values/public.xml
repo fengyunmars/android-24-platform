@@ -894,7 +894,7 @@
   <public type="drawable" name="ic_dialog_info" id="0x0108009b" />
   <public type="drawable" name="ic_menu_sort_alphabetically" id="0x0108009c" />
   <public type="drawable" name="ic_menu_sort_by_size" id="0x0108009d" />
-  <public type="drawable" name="blue"/>
+
   <public type="layout" name="activity_list_item" id="0x01090000" />
   <public type="layout" name="expandable_list_content" id="0x01090001" />
   <public type="layout" name="preference_category" id="0x01090002" />
@@ -2714,12 +2714,7 @@
     <public type="attr" name="enableVrMode" id="0x01010525" />
     <public type="attr" name="hash" id="0x01010526" />
     <public type="attr" name="networkSecurityConfig" id="0x01010527" />
-    <public name="statusBarInverse" type="attr" />
-    <public name="autoInverse" type="attr" />
-    <!--add by liuweiquan actionbar 20160802 start-->
-    <public name="prizeActionBarStyle" type="attr" />
-    <!--add by liuweiquan actionbar 20160802 end-->
-	
+
     <public type="style" name="Theme.Material.Light.DialogWhenLarge.DarkActionBar" id="0x010302d8" />
     <public type="style" name="Widget.Material.SeekBar.Discrete" id="0x010302d9" />
     <public type="style" name="Widget.Material.CompoundButton.Switch" id="0x010302da" />
